@@ -46,8 +46,8 @@ def keep_alive():
 
 # --- Configuration FROM .env FILE ---
 TOKEN = os.getenv('TOKEN', '8864538013:AAGq3AbveuUzlooWHKFgLn0TFJdiHnyCNpI')
-OWNER_ID = int(os.getenv('OWNER_ID', '8932730901 '))
-ADMIN_ID = int(os.getenv('ADMIN_ID', '7278872449'))
+OWNER_ID = int(os.getenv('OWNER_ID'))
+ADMIN_ID = int(os.getenv('ADMIN_ID'))
 YOUR_USERNAME = os.getenv('YOUR_USERNAME')
 UPDATE_CHANNEL = os.getenv('UPDATE_CHANNEL')
 
